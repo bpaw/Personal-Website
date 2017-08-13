@@ -118,6 +118,20 @@ body {
 
 #footer {
   background-color: #232323;
-  height: 30vh;
+  height: 55vh;
+  padding: 10vh 30vw;
   width: 100vw;
+}
+
+.contact {
+  /*color: #768390;*/
+  text-decoration-color: #768390;
+}
+
+.contact h2 {
+  color: #D0D0D0;
+}
+
+.contact-icons {
+  color: white;
 }
