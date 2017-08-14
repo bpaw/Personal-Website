@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="personal.css">
-
   </head>
   </body>
 
     <div id="fold">
       <div id="toolbar">
-        <nav class="navbar">
+        <nav class="navbar navbar-fixed-top">
         <div id="toolbar-left">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Brandon Paw</a>
@@ -22,11 +21,11 @@
 
         <div id="toolbar-right">
           <ul id="navigation">
-            <li> Resume </li>
-            <li> Contact </li>
-            <li> Experience </li>
-            <li> Projects </li>
-            <li> About </li>
+            <li><a href="#about">About</a> </li>
+            <li><a href="#experience"> Experience </a></li>
+            <li><a href="#projects"> Projects </a></li>
+            <li><a> Resume </a></li>
+            <li><a href="#footer"> Contact </a></li>
           </ul>
         </div>
       </nav>
@@ -42,43 +41,18 @@
     <div id="content">
 
       <!-- SECTION : About -->
-      <div id="section-container" class="example-title">
-        <h2>About</h2>
-      </div>
       <div id="about">
+        <div id="section-container" class="example-title">
+          <h2>About</h2>
+        </div>
+      </div>
+      <div>
         <br>
         Hi! <br><br>
         My name is Brandon Paw and I am a second year at UCSD studying
         Computer Science. <br><br>
         I am currently interning at a startup called CleverPet where I am working on full stack mobile development
       </div>
-
-
-      <!-- SECTION : Experience -->
-      <!-- <div class="row experience-container">
-
-        <div class="experience-cleverpet-card col s6 offset-s3">
-          <div class="card offset m1">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="cleverpet.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">CleverPet<i class="material-icons right">more_vert</i></span>
-              <p>
-                  As a software engineering intern at CleverPet, I worked on full stack mobile development.
-                  <br><br><strong>Android </strong> - Developed several features for the Android application in
-                     order to improve user experience.
-                  <br><strong>Cloud</strong> - Implemented cloud modules in the Google Cloud Platform
-                    for providing users real time analytics through Firebase.
-                    Wrote and added infrastructure for unit tests that verify
-                    the correctness of modules that interact with third party platforms.
-                  <br><strong>Worked with</strong> - Java, Python, Android Studio, PyCharm, Firebase,
-                    and several Google Cloud Platform services
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> -->
 
       <script src="https://use.typekit.net/bkt6ydm.js"></script>
       <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -204,7 +178,7 @@
                   </ul>
               </div>
           </div> -->
-          <div class="row example-centered">
+          <div id = "experience" class="row example-centered">
               <div class="col-md-12 example-title">
                   <h2>Experience</h2>
               </div>
@@ -284,13 +258,90 @@
       </div>
 
       <!-- SECTION : Projects -->
-      <div id="section-container" class="example-title">
-        <h2>Projects</h2>
+      <div id="projects">
+        <div id="section-container" class="example-title">
+          <h2>Projects</h2>
+        </div>
       </div>
-      <div id="about">
+      <div class="row">
+        <div class="project-card col s6 offset-s3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="cleverpet.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Receipt Repo<i class="material-icons right">more_vert</i></span>
+              <p>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Receipt Repo<i class="material-icons right">close</i></span>
+              <p>Ever get tired of having to keep track of your receipts? I sure did!</p>
+              <p>I developed Receipt Repo to help me store and query my receipts.</p>
+              <p>Development: </p>
+              <ul>
+                <li><strong>Android: </strong>Java, Firebase, Picasso</li>
+                <li><strong>Web: </strong>JavaScript, AngularJS, Bootstrap</li>
+                <li><strong>Backend: </strong>Java, Spring Framework, Hibernate, Google Sheets API, Firebase</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-
-
+      <div class="row">
+        <div class="project-card col s6 offset-s3">
+          <div class="card offset m1">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="cleverpet.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">youPlay<i class="material-icons right">more_vert</i></span>
+              <p>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Receipt Repo<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="project-card col s6 offset-s3">
+          <div class="card offset m1">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="LogIt.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">LogIt<i class="material-icons right">more_vert</i></span>
+              <p>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Receipt Repo<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="project-card col s6 offset-s3">
+          <div class="card offset m1">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="VAC_Go.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">VAC Go<i class="material-icons right">more_vert</i></span>
+              <p>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">VAC Go<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
      </div>
 
      <div id="footer">
@@ -298,17 +349,24 @@
        <!-- SECTION : Contact -->
        <div id='content'>
          <div id="section-container" class="contact">
-           <h2>Contact</h2>
+           <h2>Contact </h2>
            <div class="connect-icons">
-             <ul>
-               <li><a class="contact-icons"><i class="fa fa-facebook"></i></a></li>
-               <li><a class="contact-icons"><i class="fa fa-linkedin"></i></a></li>
-               <li><a class="contact-icons"><i class="fa fa-github"></i></a></li>
-               <!-- <li><a><i class="fa fa-"></i></a></li> -->
+             <ul class="contact-list">
+               <li><a class="contact-icons"><i class="fa fa-envelope-o" id="gmail-color"></i></a></li>
+               <li><a class="contact-icons"><i class="fa fa-linkedin" id="linked-in-color"></i></a></li>
+               <li><a class="contact-icons"><i class="fa fa-facebook" id="facebook-color"></i></a></li>
+               <li><a class="contact-icons"><i class="fa fa-github" id="github-color"></i></a></li>
+<!-- <li><a><i class="fa fa-"></i></a></li> -->
              </ul>
+           </div>
+           <div class="arrow">
+             <i class="fa fa-angle-up"></i>
            </div>
          </div>
        </div>
      </div>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   </body>
 </html>

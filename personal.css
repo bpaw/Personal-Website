@@ -37,9 +37,10 @@ body {
   width: 50%;
 }
 
-#navigation li {
+#navigation li  a {
   cursor: pointer;
   float: right;
+  font-size: .95em;
   list-style-type: none;
   margin-right: 1vw;
   margin-left: 1vw;
@@ -109,16 +110,12 @@ body {
 
 #section-container {
   text-align: center;
-}
-
-.experience-cleverpet-card {
   margin: 0 auto;
 }
 
-
 #footer {
   background-color: #232323;
-  height: 55vh;
+  height: 45vh;
   padding: 10vh 30vw;
   width: 100vw;
 }
@@ -132,6 +129,50 @@ body {
   color: #D0D0D0;
 }
 
+.contact-list li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 2.5vh 1.5vw;
+}
+
+.connect-icons {
+  margin: 0 auto;
+}
+
 .contact-icons {
   color: white;
+  display: inline;
+  font-size: 1.5em;
+  list-style-type: none;
+}
+
+.arrow {
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  height: 5vh;
+  margin: 0 auto;
+  padding-top: .5vh;
+  width: 5vh;
+}
+
+.project-card {
+  margin: 5vh auto;
+}
+
+#gmail-color:hover {
+  color: #dd4b39;
+}
+
+#linked-in-color:hover {
+  color: #007bb5;
+}
+
+#facebook-color:hover {
+  color: #3b5998;
+}
+
+#github-color:hover {
+  color: #6e5494;
 }
