@@ -154,11 +154,11 @@ body {
   font-size: 1em;
   height: 6vh;
   margin: 0 auto;
-  -webkit-transform: scale( 0.83 );
-  -moz-transform: scale( 0.83 );
-  -o-transform: scale( 0.83 );
-  -ms-transform: scale( 0.83 );
-  transform: scale( 0.83 );
+  -webkit-transform: scale( 0.8333 );
+  -moz-transform: scale( 0.8333 );
+  -o-transform: scale( 0.8333 );
+  -ms-transform: scale( 0.8333 );
+  transform: scale( 0.8333 );
   padding-top: 1vh;
   vertical-align: middle;
   width: 6vh;
@@ -198,4 +198,9 @@ body {
 
 #github-color:hover {
   color: #6e5494;
+}
+
+
+a:hover{
+  color: white;
 }
