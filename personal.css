@@ -237,3 +237,7 @@ body {
 a:hover{
   color: white;
 }
+
+.example-title {
+  margin: 0;
+}
