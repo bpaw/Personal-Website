@@ -9,33 +9,80 @@ body {
 
 .navbar {
   color: white;
-  background-color: #009688;
+  /*background-color: #009688;*/
+  background-color: transparent;
+  /*opacity: .2;*/
   border-radius: 0;
+}
+
+.navbar-transparent {
+  background: none;
 }
 
 .navbar-nav {
   font-size: 1.5em;
 }
 
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;
+  -o-transition:padding 0.2s ease-out;
+  transition:padding 0.2s ease-out;
+  background-color: #009688;
+}
+
+@media (min-width:768px) {
+    .affix-top {
+      /* navbar style at top */
+      background:transparent;
+      border-color:transparent;
+      padding: 15px;
+      -webkit-transition:all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      -o-transition:all 0.5s ease;
+      transition:all 0.5s ease;
+    }
+}
+
+
+/*.affix {
+  background-color: black;
+  /*background-color: #009688;*/
+/*}*/
+/*@media (min-width:768px) {
+  .affix-top {
+    /* navbar style at top */
+      /*background:transparent;
+      border-color:transparent;
+      padding: 15px;
+      -webkit-transition:all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      -o-transition:all 0.5s ease;
+      transition:all 0.5s ease;*/
+  /*}
+}*/
+
 .image-cropper {
-    width: 300px;
-    height: 300px;
+  width: 100vw;
+  height: 100vh;
+    /*width: 300px;
+    height: 300px;*/
     position: relative;
     overflow: hidden;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15vh;
+    /*margin-top: 15vh;*/
 }
 
-.rounded {
+.fold-image {
     height: inherit;
     width: inherit;
-    -webkit-border-radius: 50%;
+    /*-webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
+    -o-border-radius: 50%;*/
+    /*border-radius: 50%;*/
     background:url("me.jpg") center no-repeat;
     background-size:cover;
     margin: 0 auto;
@@ -178,6 +225,11 @@ body {
   font-size: 1.5em;
   list-style-type: none;
 }
+
+.arrow-top-container {
+    padding: 85vh;
+}
+
 .arrow-top {
   background-color: white;
   border: 1px solid black;
@@ -197,6 +249,7 @@ body {
   width: 6vh;
   text-align: center;
 }
+
 .arrow-bottom {
   border: 1px solid white;
   border-radius: 50%;
@@ -213,17 +266,20 @@ body {
   padding-top: 1vh;
   vertical-align: middle;
   width: 6vh;
+  text-align: center;
 }
+
 .black{
   background-color: white;
   border: 1px solid black;
   border-radius: 50%;
   color: white;
 }
+
 .arrow-top:hover {
   background-color: #000000;
   color: white;
-  font-size: 1.05em;
+  font-size: 1.125em;
   /*height: 6vh;*/
   margin: 0 auto;
   /*width: 6vh;*/
