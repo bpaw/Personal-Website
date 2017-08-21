@@ -10,25 +10,25 @@
   </head>
   </body>
 
-    <div id="toolbar-nav">
-        <nav class="navbar navbar-fixed-top">
-          <ul id="navigation" class="navbar-right">
-            <li><a href="#about">About</a> </li>
-            <li><a href="#experience"> Experience </a></li>
-            <li><a href="#projects"> Projects </a></li>
-            <li><a href="brandon_paw_resume.pdf" target="_blank"> Resume </a></li>
-            <li><a href="#footer"> Contact </a></li>
-          </ul>
-        </nav>
-    </div>
+    <nav class="navbar navbar-fixed-top" data-spy="affix" data-offset-top="400">
+      <ul id="navigation" class="navbar-right">
+        <li><a href="#about">About</a> </li>
+        <li><a href="#experience"> Experience </a></li>
+        <li><a href="#projects"> Projects </a></li>
+        <li><a href="brandon_paw_resume.pdf" target="_blank"> Resume </a></li>
+        <li><a href="#footer"> Contact </a></li>
+      </ul>
+    </nav>
 
     <div id="about-image" class="image-cropper">
       <!-- <img src="me.jpg" class="about-img"/> -->
-      <div class="rounded"></div>
-    </div>
-
-    <div class="arrow-top">
-      <i class="fa fa-angle-down"></i>
+      <div class="fold-image">
+        <div class="arrow-top-container">
+          <div class="arrow-bottom">
+            <i class="fa fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="content">
@@ -383,5 +383,6 @@
      <script>try{Typekit.load({ async: true });}catch(e){}</script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
