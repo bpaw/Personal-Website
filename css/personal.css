@@ -83,7 +83,7 @@ body {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;*/
     /*border-radius: 50%;*/
-    background:url("me.jpg") center no-repeat;
+    background:url("../jpg/me.jpg") center no-repeat;
     background-size:cover;
     margin: 0 auto;
 }
