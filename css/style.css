@@ -261,7 +261,7 @@ a:hover {
     text-align: center;
   }
   .timeline-centered .timeline-item.period {
-    padding: 10px 0 50px;
+    padding: 30px 0 30px;
   }
   .timeline-centered .period .timeline-marker:after {
     height: 30px;
