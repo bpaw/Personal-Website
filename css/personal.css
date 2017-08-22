@@ -188,6 +188,25 @@ body {
   text-align: center;
 }
 
+#about-description{
+  font-size: 1.5em;
+  padding: 5vh 5vw;
+}
+
+.about-description-item {
+  margin: 5vh 0;
+}
+
+.about-link {
+    border-bottom: 1px solid #2196F3;
+    color: #2196F3;
+    padding-bottom: 1px;
+}
+
+.about-link:hover{
+  color: #2196F3;
+}
+
 #section-container {
   text-align: center;
   margin: 0 auto;
