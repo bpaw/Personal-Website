@@ -358,3 +358,29 @@ a:hover{
 .navbar-inverse {
   border-width: 0px;
 }
+
+#education-list-container {
+  margin: 2.5vh auto;
+  padding: 5vh 0;
+  width: 50%;
+}
+
+#education-list {
+  text-align: left;
+}
+
+#education-list li {
+  color: #FF6B6B;
+  list-style-type: disc;
+  margin-left: 5vw;
+  padding: 2.5vh 0;
+}
+
+#education-list li:hover {
+  list-style-type: circle;
+}
+
+#education-list li span {
+  font-size: 1em;
+  color: #768390;
+}
