@@ -359,6 +359,10 @@ a:hover{
   border-width: 0px;
 }
 
+.education-subheader {
+  margin: 5vh auto;
+}
+
 #education-list-container {
   margin: 2.5vh auto;
   padding: 5vh 0;
